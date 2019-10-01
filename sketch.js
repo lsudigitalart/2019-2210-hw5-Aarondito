@@ -18,7 +18,7 @@ stroke(255,0,0);
 
 
     
-    for (let i = 10; i < 150; i += 50) {
+    for (let i = 13; i < 313; i += 55) {
         strokeWeight(3);
         
       
@@ -369,6 +369,8 @@ bezier(
                 700 + i / 8.0
                 );
 
+                stroke(0,191,255);
+
                 bezier(
                     mouseX - i / 2.0,
                     250 + i,
@@ -434,6 +436,8 @@ bezier(
                                         650 - i / 32.0,
                                         13 + i / 8.0
                                         );
+
+                                        stroke(255,0,0);
 
                                         bezier(
                                             mouseX - i / 2.0,
@@ -512,6 +516,8 @@ bezier(
                                                                 500 + i / 8.0
                                                                 );
 
+                                                                stroke(255,255,51)
+
                                                                 rotate(PI / 6.0);
 
                                                                 bezier(
@@ -559,7 +565,7 @@ bezier(
                                                                 1300- i / 32.0,
                                                                 300 + i / 8.0
                                                             
-                                                            );
+                                                            ); 
                                                             
                                                             bezier(
                                                                 mouseX - i / 2.0,
@@ -905,6 +911,8 @@ bezier(
                                                                                             899 - i / 32.0,
                                                                                             70 + i / 8.0
                                                                                             );
+
+                                                                                            stroke(255,0,0);
                                                             
                                                                                             bezier(
                                                                                                 mouseX - i / 2.0,
