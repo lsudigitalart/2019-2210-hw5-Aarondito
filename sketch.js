@@ -1,3 +1,4 @@
+//Irregular wavy color bands.
 function setup() {
     createCanvas(900, 700);
 
